@@ -1,3 +1,8 @@
+/*
+  螺旋矩阵的构造，需要考虑维度的奇偶性、方向、发散或者收敛、开始位置
+  方向和发散性在某种角度看是对称的
+  http://www.cnblogs.com/eshizhan/archive/2010/06/01/1749013.html
+*/
 #include <iostream>
 using namespace std;
 void simplest(int n);
