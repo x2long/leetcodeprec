@@ -8,7 +8,7 @@ struct Node{
 
 int maxNodeNum(Node *root){
      if(root==NULL){
-        return 0;
+        return -1;
      }
      int max=INT_MIN;
      int min=INT_MAX;
